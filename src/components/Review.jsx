@@ -9,10 +9,10 @@ const Review = () => {
                 </p>
             </div>
             <div className="px-[175px]">
-                <div className="carousel w-full flex px-[175px] mt-8 gap-4">
+                <div className="carousel h-[288px] flex px-[175px] mt-8 gap-4">
                     <div
                         id="item1"
-                        className="h-[208px] w-[465px] carousel-item px-10 pt-10 shadow-lg shadow-slate-400 border border-gray-400 rounded-lg"
+                        className="h-[208px] w-[405px] shadow-[30px_30px_30px_-40px_rgba(0,0,0,1)] carousel-item px-10 pt-10 border border-gray-400 rounded-lg"
                     >
                         <div className="">
                             <div className="flex">
@@ -47,7 +47,7 @@ const Review = () => {
                     </div>
                     <div
                         id="item2"
-                        className="h-[208px] w-[465px] carousel-item px-10 pt-10 border border-gray-400 rounded-lg"
+                        className="h-[208px] w-[405px] carousel-item px-10 pt-10 border border-gray-400 rounded-lg"
                     >
                         <div className="">
                             <div className="flex">
@@ -82,7 +82,7 @@ const Review = () => {
                     </div>
                     <div
                         id="item3"
-                        className="h-[208px] w-[465px] carousel-item px-10 pt-10 border border-gray-400 rounded-lg"
+                        className="h-[208px] w-[405px] carousel-item px-10 pt-10 border border-gray-400 rounded-lg"
                     >
                         <div className="">
                             <div className="flex">
@@ -117,7 +117,7 @@ const Review = () => {
                     </div>
                     <div
                         id="item4"
-                        className="h-[208px] w-[465px] carousel-item px-10 pt-10 border border-gray-400 rounded-lg"
+                        className="h-[208px] w-[405px] carousel-item px-10 pt-10 border border-gray-400 rounded-lg"
                     >
                         <div className="">
                             <div className="flex">
@@ -151,7 +151,7 @@ const Review = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-center w-full py-2 gap-2 mt-8">
+                <div className="flex justify-center w-full py-2 gap-2">
                     <a href="#item1" className="btn btn-xs">
                         1
                     </a>

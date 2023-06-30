@@ -15,9 +15,16 @@ const Header = () => {
                     <div>Logo</div>
                     <div>
                         <ul className="flex gap-28">
-                            <li>About</li>
-                            <li>Pricing</li>
-                            <li>Review</li>
+                            <li>
+                                {" "}
+                                <button>About</button>
+                            </li>
+                            <li>
+                                <button>Pricing</button>
+                            </li>
+                            <li>
+                                <button>Review</button>
+                            </li>
                         </ul>
                     </div>
                 </div>
