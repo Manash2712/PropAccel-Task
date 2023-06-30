@@ -4,6 +4,19 @@
 
 @layer utilities {
     .footer-clip {
-        clip-path: polygon(0% 73%, 100% 7%, 100% 100%, 0% 100%);
+        clip-path: polygon(0% 56%, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .circle-clip {
+        clip-path: circle(38.7% at 0 0);
+    }
+
+    .upper-triangle {
+        clip-path: polygon(53% 0, 43% 85%, 100% 0);
+    }
+    .lower-triangle {
+        clip-path: polygon(75% 0, 70% 41%, 26% 100%, 0 100%, 0 0);
+    }
+    .about-clip {
+        clip-path: polygon(0 0, 0 30%, 26% 0);
     }
 }
